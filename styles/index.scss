@@ -1,0 +1,92 @@
+.color{
+        color:red
+}
+
+.recoverd{
+        color:#1ae61a;
+}
+
+body{
+        
+        
+        background-image: url('./novelcoronavirus-optimized.jpg');
+}
+
+.container{
+        
+
+      
+.main__block{
+        background:oldlace;
+        box-shadow: 0 0 15px gray;
+       
+        width: 750px;
+        border-radius: 7px;
+        table{
+                margin: 15px auto;
+      
+
+                td{
+                        border:1px solid rgba(57,3,241, 0.5);
+                        
+                }
+        }
+}
+}
+
+.sercher{
+        border:none;
+        outline:none;
+        display: block;
+       margin: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 25px;
+
+        font-family: 'Original Surfer', cursive;
+        transition: all 0.5s;
+        
+        
+}
+.sercher:focus{
+        box-shadow: 0 0 20px gray;
+        border-radius: 7px;
+}
+
+.critical{
+        color:rgb(57,3,241)
+}
+
+.inLoading{
+        position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border:5px dashed red;
+        transition: all ease 0.5s;
+        
+        animation:loader linear 0.5s infinite;
+
+}
+
+.loadOver{
+        display: none;
+}
+
+@keyframes loader{
+        0%{
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                transform: rotate(0deg);
+        }
+        100%{
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                transform: rotate(360deg);
+        }
+}
